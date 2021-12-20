@@ -1,1 +1,17 @@
+title: CSE 35321
+email: ryslik.1@osu.edu
+description: Introduction to Artificial Intelligence
+baseurl: "/osu_cse3521_spring2022" # the subpath of your site, e.g. /blog
+url: "https://gryslik.github.io/osu_cse3521_spring2022/" # the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: jekyllrb
+#github_username:  jekyll
+github:
+  is_project_page: false
+github: [metadata]
+datatable: true
+
+# Build settings
 theme: jekyll-theme-hacker
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from

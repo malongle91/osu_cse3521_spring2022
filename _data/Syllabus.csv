@@ -1,0 +1,83 @@
+﻿Date,Day,Topic,Reading & Practice,Lecture Video,Slide Deck,Notes,Additional Files
+11-Jan,Tuesday,Introduction (course syllabus & policy),"Review: 
+linear algebera, 
+probability, 
+and python",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387354"">Lecture Slides</a> ",,
+13-Jan,Thursday,"AI Agent Design
+Search (a brief introduction)",AI: 1-2,,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387355"">Lecture Slides</a> ",,
+18-Jan,Tuesday,Uninformed search,"AI: 3.1-3.5 
+AI: 5.1-5.3",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387356"">Lecture Slides</a> ",,
+20-Jan,Thursday,Informed search,"AI: 3.1-3.5 
+AI: 5.1-5.3",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387357"">Lecture Slides</a> ",,
+25-Jan,Tuesday,"Graph search
+Adversarial search (Mini-Max/Alpha-Beta Pruning)","AI: 3.1-3.5 
+AI: 5.1-5.3",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387358"">Lecture Slides</a> ",HW1 released,
+27-Jan,Thursday,"Symbolic AI & Logical Inference
+Representation, inference rules","AI: 7.1-7.5 
+AI: 8.1-8.3 
+AI: 9.1-9.3, 9.5",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387359"">Lecture Slides</a> ",,
+1-Feb,Tuesday,"Propositional logic, first-order logic","AI: 7.1-7.5 
+AI: 8.1-8.3 
+AI: 9.1-9.3, 9.5",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387360"">Lecture Slides</a> ",,
+3-Feb,Thursday,"Data-to-Features and Dimensionality Reduction
+Machine learning overview, application data, bag of words","PRML: 1.2.1, 1.2.2, 1.2.4 
+PRML: 2.5",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387361"">Lecture Slides</a> ",,
+8-Feb,Tuesday,"Histograms, non-parametric representations (Parzen)
+data correlation","PRML: 1.2.1, 1.2.2, 1.2.4 
+PRML: 2.5",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387362"">Lecture Slides</a> ",HW1 due <br> HW2 released,
+10-Feb,Thursday,"Z-score, whitening
+Dimensionality reduction: PCA & embedding (T-SNE)","PRML: 1.4
+PRML: 12.1, 12.4.3",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387363"">Lecture Slides</a> ",,
+15-Feb,Tuesday,Dimensionality reduction (continued),"PRML: 1.4
+PRML: 12.1, 12.4.3",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387364"">Lecture Slides</a> ",,
+17-Feb,Thursday,"General Parameter Estimation Techniques
+Linear Regression w/ least squares ","PRML: 1.1, 1.2.5, 1.5.5 
+PRML: 3.1",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387365"">Lecture Slides</a> ",,
+22-Feb,Tuesday,Gradient Descent and Newton's method,"PRML: 1.1, 1.2.5, 1.5.5 
+PRML: 3.1",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387366"">Lecture Slides</a> ",,
+24-Feb,Thursday,"Probability Basics
+Probability refresher","PRML: 3.1.3, 5.2.4 
+Review: probability",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387367"">Lecture Slides</a> ",,
+1-Mar,Tuesday,Midterm review,,,,HW2 due,
+3-Mar,Thursday,Midterm,,,,,
+8-Mar,Tuesday,"Midterm solution discussion
+Distribution modeling (parameter estimation, MAP, ML)
+Bayes rule","PRML: 1.2.3, 1.2.4, 2.3 
+PRML: 8.1.1-8.1.3 
+PRML: 8.2 
+PRML: 8.4.1 
+AI: 13.1-13.5",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387368"">Lecture Slides</a> ",,
+10-Mar,Thursday,"naïve Bayes
+Graphical Model intro (Bayes Nets)","PRML: 1.2.3, 1.2.4, 2.3 
+PRML: 8.1.1-8.1.3 
+PRML: 8.2 
+PRML: 8.4.1 
+AI: 13.1-13.5",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387369"">Lecture Slides</a> <br> 2.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387370"">Lecture Slides</a> ",HW3 released,
+15-Mar,Tuesday,Spring Break,,,,,
+17-Mar,Thursday,Spring Break,,,,,
+22-Mar,Tuesday,"Unsupervised Learning
+Unsupervised learning overview
+K-means/medoids, agglomerative ",PRML: 9.1,,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387371"">Lecture Slides</a> ",,
+24-Mar,Thursday,Mixture-of-Gaussians with EM,"PRML: 9.2, 9.3.2, 9.4",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387372"">Lecture Slides</a> ",,
+29-Mar,Tuesday,"Supervised Learning
+Supervised learning overview
+Train/Val/Test, cross-validation, overfitting ","PRML: 1.1, 1.3
+AI 18.1 - 18.3",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387373"">Lecture Slides</a> ",,
+31-Mar,Thursday,"KNN, Decision Trees, Random Forest, Boosting/Bagging","PRML: 2.5.2 
+PRML: 4.1.1-4.1.3, 4.3.2 
+PRML: 7.1.1-7.1.2 
+PRML: 14.3, 14.4 
+AI 18.4 - 18.9",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387374"">Lecture Slides</a> ",HW3 due <br> HW4 released,
+5-Apr,Tuesday,"Logistic regression, SVM-lite, Bayesian Classifier","PRML: 2.5.2 
+PRML: 4.1.1-4.1.3, 4.3.2 
+PRML: 7.1.1-7.1.2 
+PRML: 14.3, 14.4 
+AI 18.4 - 18.9",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387375"">Lecture Slides</a> ",,
+7-Apr,Thursday,"Neural networks
+Deep learning introduction with CNN, RNN, GNN basics
+perceptron",PRML: 4.1.7,,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387376"">Lecture Slides</a> ",,
+12-Apr,Tuesday,"Multi-layer perceptron, backpropagation, training particulars",PRML: 5.1-5.3,,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387377"">Lecture Slides</a> ",,
+14-Apr,Thursday,Reinforcement Learning Basics and Examples,Slides only,,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387378"">Lecture Slides</a> ",HW4 due,
+19-Apr,Tuesday,Ethics and Philosophy of AI,Slides only,,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387378"">Lecture Slides</a> ",,
+21-Apr,Thursday,Final exam review,,,,,
+TBD,,Final exam,,,,,

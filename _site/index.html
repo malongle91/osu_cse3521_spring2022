@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/osu_cse3521_spring2022/assets/css/style.css?v=">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup theme-color -->
+<!-- start theme color meta headers -->
+<meta name="theme-color" content="#151515">
+<meta name="msapplication-navbutton-color" content="#151515">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- end theme color meta headers -->
+
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/osu_cse3521_spring2022/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>CSE 35321 | Introduction to Artificial Intelligence</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="CSE 35321" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Introduction to Artificial Intelligence" />
+<meta property="og:description" content="Introduction to Artificial Intelligence" />
+<link rel="canonical" href="http://localhost:4000/osu_cse3521_spring2022/" />
+<meta property="og:url" content="http://localhost:4000/osu_cse3521_spring2022/" />
+<meta property="og:site_name" content="CSE 35321" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="CSE 35321" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/osu_cse3521_spring2022/","headline":"CSE 35321","@type":"WebSite","description":"Introduction to Artificial Intelligence","name":"CSE 35321","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <a id="a-title" href="/osu_cse3521_spring2022/">
+          <h1>CSE 35321</h1>
+        </a>
+        <h2>Introduction to Artificial Intelligence</h2>
+
+        <section id="downloads">
+          
+          <a href="" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css" />
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+<script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+
+<h1 id="spring-2022">Spring 2022</h1>
+
+<h2 id="class-information">Class Information</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Section 010</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Schedule</td>
+      <td>Tues/Thur 2:20 PM - 3:40 PM</td>
+    </tr>
+    <tr>
+      <td>Location</td>
+      <td>Baker Systems 180 (or ONLINE)</td>
+    </tr>
+    <tr>
+      <td>Professor</td>
+      <td>Greg Ryslik / ryslik DOT 1 AT osu DOT edu</td>
+    </tr>
+    <tr>
+      <td>Professor Office Hours</td>
+      <td>Thursdays (3:40 - 4:40 PM) - via zoom. Contact me if you plan to attend.</td>
+    </tr>
+    <tr>
+      <td>TA</td>
+      <td>TBD</td>
+    </tr>
+    <tr>
+      <td>TA Office Hours</td>
+      <td>TBD</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="description">Description:</h2>
+<h3 id="course-abstract">Course abstract:</h3>
+<p>Survey of basic concepts and techniques in artificial intelligence, including problem-solving, knowledge representation, and machine learning.</p>
+
+<h3 id="course-objectives-">Course objectives :</h3>
+<p>-Gain familiarity with basic search techniques for problem-solving.  <br />
+-Gain exposure to multiple knowledge-representation formalisms. <br />
+-Gain exposure to data and feature representations. <br />
+-Understand basic unsupervised learning techniques and the kinds of problems they solve.  <br />
+-Understand basic supervised learning techniques and the kinds of problems they solve.  <br />
+-Gain expsoure to the ethics of AI.</p>
+
+<h3 id="course-credits">Course credits:</h3>
+<p>3 units</p>
+
+<h3 id="note">Note:</h3>
+<p>It is highly encouraged that you simply fork this entire repo and then just sync updates periodically. This will provide you the easiest access to all the class materials at once. For more information on this process, you can see the documentation <a href="https://docs.github.com/en/get-started/quickstart/fork-a-repo">here</a>.</p>
+
+<h2 id="requirements--review-materials">Requirements &amp; Review Materials</h2>
+
+<h3 id="prerequisites">Prerequisites:</h3>
+
+<p>-CSE 2331 (Foundations 2) or 5331 <br />
+-Linear algebra: Math 2568, 2174, 4568, or 5520H <br />
+-Statistics and probability: Stat 3201 or 3450 or 3460 or 3470 or 4201 or Math 4530 or 5530H <br />
+-Students in the class are expected to have a reasonable degree of mathematical sophistication and to be familiar with the basic knowledge of linear algebra, multivariate calculus, probability, and statistics. Students are also expected to have knowledge of basic algorithm design techniques and basic data structures.  <br />
+-Programming in Python 3 is required.</p>
+
+<h3 id="review-materials">Review Materials:</h3>
+<ol>
+  <li><a href="http://www.google.com/url?q=http%3A%2F%2Fcs229.stanford.edu%2Fsummer2020%2Fcs229-linalg.pdf&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNHpuHdE0Smz1gtVal60wFBolsKu2A">linear algebra</a></li>
+  <li><a href="http://www.google.com/url?q=http%3A%2F%2Fcs229.stanford.edu%2Fsummer2020%2Fcs229-prob.pdf&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGAllccJuluufdQI-wjMolkXTGmnw">probability</a></li>
+  <li><a href="http://www.google.com/url?q=http%3A%2F%2Fai.berkeley.edu%2Ftutorial.html%23PythonBasics&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNHmgcfln4NzCEVvCaZwn6wX4CFy4g">Python-1</a></li>
+  <li><a href="https://www.google.com/url?q=https%3A%2F%2Fcs231n.github.io%2Fpython-numpy-tutorial%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGv73L4oqVNd6m4dBB4IKNQMZD81g">Python-2</a></li>
+  <li><a href="https://www.google.com/url?q=https%3A%2F%2Fwww.python.org%2Fabout%2Fgettingstarted%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNEenTVYVxiWp53maXVcCXDvr7fPiA">Python-3</a></li>
+</ol>
+
+<h2 id="textbooks">Textbooks:</h2>
+<h3 id="required-textbooks">Required Textbooks:</h3>
+<p>-No required textbooks.</p>
+
+<h3 id="suggested-supplemental-references">Suggested supplemental references:</h3>
+<ol>
+  <li>Stuart Russell and Peter Norvig, Artificial intelligence: a modern approach (3rd edition). Pearson, 2010</li>
+  <li>Christopher M Bishop, Pattern recognition and machine learning. Springer, 2006.</li>
+  <li>Kevin P. Murphy, Machine Learning: A Probabilistic Perspective. The MIT Press, 2012</li>
+  <li>Shai Shalev-Shwartz and Shai Ben-David, Understanding machine learning: From theory to algorithms. Cambridge university press, 2014.</li>
+  <li>Ian Goodfellow, Yoshua Bengio, and Aaron Courville, Deep learning. MIT Press, 2016.</li>
+  <li>Ethem Alpaydin, Introduction to Machine Learning. The MIT Press.</li>
+  <li>Kaare Brandt Petersen and Michael Syskind Pedersen, <a href="https://www.google.com/url?q=https%3A%2F%2Fwww.math.uwaterloo.ca%2F~hwolkowi%2Fmatrixcookbook.pdf&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNHd8gcMhQeX2KzF6f0j8dH3bGSwxw">The Matrix Cookbook</a></li>
+</ol>
+
+<h2 id="class-outline">Class outline</h2>
+
+<table class="display" border="1" frame="sides" rules="all">
+  
+    
+    <tr>
+      
+        <th>﻿Date</th>
+      
+        <th>Day</th>
+      
+        <th>Topic</th>
+      
+        <th>Reading &amp; Practice</th>
+      
+        <th>Lecture Video</th>
+      
+        <th>Slide Deck</th>
+      
+        <th>Notes</th>
+      
+        <th>Additional Files</th>
+      
+    </tr>
+    
+
+    <tr class="row1">
+<td class="col1">
+      11-Jan
+    </td><td class="col2">
+      Tuesday
+    </td><td class="col3">
+      Introduction (course syllabus &amp; policy)
+    </td><td class="col4">
+      Review: 
+linear algebera, 
+probability, 
+and python
+    </td><td class="col5">
+      
+    </td><td class="col6">
+      1.<a href="https://osu.instructure.com/courses/114952/modules/items/7387354">Lecture Slides</a> 
+    </td><td class="col7">
+      
+    </td><td class="col8">
+      
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      13-Jan
+    </td><td class="col2">
+      Thursday
+    </td><td class="col3">
+      AI Agent Design
+Search (a brief introduction)
+    </td><td class="col4">
+      AI: 1-2
+    </td><td class="col5">
+      
+    </td><td class="col6">
+      1.<a href="https://osu.instructure.com/courses/114952/modules/items/7387355">Lecture Slides</a> 
+    </td><td class="col7">
+      
+    </td><td class="col8">
+      
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      18-Jan
+    </td><td class="col2">
+      Tuesday
+    </td><td class="col3">
+      Uninformed search
+    </td><td class="col4">
+      AI: 3.1-3.5 
+AI: 5.1-5.3
+    </td><td class="col5">
+      
+    </td><td class="col6">
+      1.<a href="https://osu.instructure.com/courses/114952/modules/items/7387356">Lecture Slides</a> 
+    </td><td class="col7">
+      
+    </td><td class="col8">
+      
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      20-Jan
+    </td><td class="col2">
+      Thursday
+    </td><td class="col3">
+      Informed search
+    </td><td class="col4">
+      AI: 3.1-3.5 
+AI: 5.1-5.3
+    </td><td class="col5">
+      
+    </td><td class="col6">
+      1.<a href="https://osu.instructure.com/courses/114952/modules/items/7387357">Lecture Slides</a> 
+    </td><td class="col7">
+      
+    </td><td class="col8">
+      
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      25-Jan
+    </td><td class="col2">
+      Tuesday
+    </td><td class="col3">
+      Graph search
+Adversarial search (Mini-Max/Alpha-Beta Pruning)
+    </td><td class="col4">
+      AI: 3.1-3.5 
+AI: 5.1-5.3
+    </td><td class="col5">
+      
+    </td><td class="col6">
+      1.<a href="https://osu.instructure.com/courses/114952/modules/items/7387358">Lecture Slides</a> 
+    </td><td class="col7">
+      HW1 released
+    </td><td class="col8">
+      
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      27-Jan
+    </td><td class="col2">
+      Thursday
+    </td><td class="col3">
+      Symbolic AI &amp; Logical Inference
+Representation, inference rules
+    </td><td class="col4">
+      AI: 7.1-7.5 
+AI: 8.1-8.3 
+AI: 9.1-9.3, 9.5
+    </td><td class="col5">
+      
+    </td><td class="col6">
+      1.<a href="https://osu.instructure.com/courses/114952/modules/items/7387359">Lecture Slides</a> 
+    </td><td class="col7">
+      
+    </td><td class="col8">
+      
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      1-Feb
+    </td><td class="col2">
+      Tuesday
+    </td><td class="col3">
+      Propositional logic, first-order logic
+    </td><td class="col4">
+      AI: 7.1-7.5 
+AI: 8.1-8.3 
+AI: 9.1-9.3, 9.5
+    </td><td class="col5">
+      
+    </td><td class="col6">
+      1.<a href="https://osu.instructure.com/courses/114952/modules/items/7387360">Lecture Slides</a> 
+    </td><td class="col7">
+      
+    </td><td class="col8">
+      
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      3-Feb
+    </td><td class="col2">
+      Thursday
+    </td><td class="col3">
+      Data-to-Features and Dimensionality Reduction
+Machine learning overview, application data, bag of words
+    </td><td class="col4">
+      PRML: 1.2.1, 1.2.2, 1.2.4 
+PRML: 2.5
+    </td><td class="col5">
+      
+    </td><td class="col6">
+      1.<a href="https://osu.instructure.com/courses/114952/modules/items/7387361">Lecture Slides</a> 
+    </td><td class="col7">
+      
+    </td><td class="col8">
+      
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      8-Feb
+    </td><td class="col2">
+      Tuesday
+    </td><td class="col3">
+      Histograms, non-parametric representations (Parzen)
+data correlation
+    </td><td class="col4">
+      PRML: 1.2.1, 1.2.2, 1.2.4 
+PRML: 2.5
+    </td><td class="col5">
+      
+    </td><td class="col6">
+      1.<a href="https://osu.instructure.com/courses/114952/modules/items/7387362">Lecture Slides</a> 
+    </td><td class="col7">
+      HW1 due <br /> HW2 released
+    </td><td class="col8">
+      
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      10-Feb
+    </td><td class="col2">
+      Thursday
+    </td><td class="col3">
+      Z-score, whitening
+Dimensionality reduction: PCA &amp; embedding (T-SNE)
+    </td><td class="col4">
+      PRML: 1.4
+PRML: 12.1, 12.4.3
+    </td><td class="col5">
+      
+    </td><td class="col6">
+      1.<a href="https://osu.instructure.com/courses/114952/modules/items/7387363">Lecture Slides</a> 
+    </td><td class="col7">
+      
+    </td><td class="col8">
+      
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      15-Feb
+    </td><td class="col2">
+      Tuesday
+    </td><td class="col3">
+      Dimensionality reduction (continued)
+    </td><td class="col4">
+      PRML: 1.4
+PRML: 12.1, 12.4.3
+    </td><td class="col5">
+      
+    </td><td class="col6">
+      1.<a href="https://osu.instructure.com/courses/114952/modules/items/7387364">Lecture Slides</a> 
+    </td><td class="col7">
+      
+    </td><td class="col8">
+      
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      17-Feb
+    </td><td class="col2">
+      Thursday
+    </td><td class="col3">
+      General Parameter Estimation Techniques
+Linear Regression w/ least squares 
+    </td><td class="col4">
+      PRML: 1.1, 1.2.5, 1.5.5 
+PRML: 3.1
+    </td><td class="col5">
+      
+    </td><td class="col6">
+      1.<a href="https://osu.instructure.com/courses/114952/modules/items/7387365">Lecture Slides</a> 
+    </td><td class="col7">
+      
+    </td><td class="col8">
+      
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      22-Feb
+    </td><td class="col2">
+      Tuesday
+    </td><td class="col3">
+      Gradient Descent and Newton's method
+    </td><td class="col4">
+      PRML: 1.1, 1.2.5, 1.5.5 
+PRML: 3.1
+    </td><td class="col5">
+      
+    </td><td class="col6">
+      1.<a href="https://osu.instructure.com/courses/114952/modules/items/7387366">Lecture Slides</a> 
+    </td><td class="col7">
+      
+    </td><td class="col8">
+      
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      24-Feb
+    </td><td class="col2">
+      Thursday
+    </td><td class="col3">
+      Probability Basics
+Probability refresher
+    </td><td class="col4">
+      PRML: 3.1.3, 5.2.4 
+Review: probability
+    </td><td class="col5">
+      
+    </td><td class="col6">
+      1.<a href="https://osu.instructure.com/courses/114952/modules/items/7387367">Lecture Slides</a> 
+    </td><td class="col7">
+      
+    </td><td class="col8">
+      
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      1-Mar
+    </td><td class="col2">
+      Tuesday
+    </td><td class="col3">
+      Midterm review
+    </td><td class="col4">
+      
+    </td><td class="col5">
+      
+    </td><td class="col6">
+      
+    </td><td class="col7">
+      HW2 due
+    </td><td class="col8">
+      
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      3-Mar
+    </td><td class="col2">
+      Thursday
+    </td><td class="col3">
+      Midterm
+    </td><td class="col4">
+      
+    </td><td class="col5">
+      
+    </td><td class="col6">
+      
+    </td><td class="col7">
+      
+    </td><td class="col8">
+      
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      8-Mar
+    </td><td class="col2">
+      Tuesday
+    </td><td class="col3">
+      Midterm solution discussion
+Distribution modeling (parameter estimation, MAP, ML)
+Bayes rule
+    </td><td class="col4">
+      PRML: 1.2.3, 1.2.4, 2.3 
+PRML: 8.1.1-8.1.3 
+PRML: 8.2 
+PRML: 8.4.1 
+AI: 13.1-13.5
+    </td><td class="col5">
+      
+    </td><td class="col6">
+      1.<a href="https://osu.instructure.com/courses/114952/modules/items/7387368">Lecture Slides</a> 
+    </td><td class="col7">
+      
+    </td><td class="col8">
+      
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      10-Mar
+    </td><td class="col2">
+      Thursday
+    </td><td class="col3">
+      naïve Bayes
+Graphical Model intro (Bayes Nets)
+    </td><td class="col4">
+      PRML: 1.2.3, 1.2.4, 2.3 
+PRML: 8.1.1-8.1.3 
+PRML: 8.2 
+PRML: 8.4.1 
+AI: 13.1-13.5
+    </td><td class="col5">
+      
+    </td><td class="col6">
+      1.<a href="https://osu.instructure.com/courses/114952/modules/items/7387369">Lecture Slides</a> <br /> 2.<a href="https://osu.instructure.com/courses/114952/modules/items/7387370">Lecture Slides</a> 
+    </td><td class="col7">
+      HW3 released
+    </td><td class="col8">
+      
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      15-Mar
+    </td><td class="col2">
+      Tuesday
+    </td><td class="col3">
+      Spring Break
+    </td><td class="col4">
+      
+    </td><td class="col5">
+      
+    </td><td class="col6">
+      
+    </td><td class="col7">
+      
+    </td><td class="col8">
+      
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      17-Mar
+    </td><td class="col2">
+      Thursday
+    </td><td class="col3">
+      Spring Break
+    </td><td class="col4">
+      
+    </td><td class="col5">
+      
+    </td><td class="col6">
+      
+    </td><td class="col7">
+      
+    </td><td class="col8">
+      
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      22-Mar
+    </td><td class="col2">
+      Tuesday
+    </td><td class="col3">
+      Unsupervised Learning
+Unsupervised learning overview
+K-means/medoids, agglomerative 
+    </td><td class="col4">
+      PRML: 9.1
+    </td><td class="col5">
+      
+    </td><td class="col6">
+      1.<a href="https://osu.instructure.com/courses/114952/modules/items/7387371">Lecture Slides</a> 
+    </td><td class="col7">
+      
+    </td><td class="col8">
+      
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      24-Mar
+    </td><td class="col2">
+      Thursday
+    </td><td class="col3">
+      Mixture-of-Gaussians with EM
+    </td><td class="col4">
+      PRML: 9.2, 9.3.2, 9.4
+    </td><td class="col5">
+      
+    </td><td class="col6">
+      1.<a href="https://osu.instructure.com/courses/114952/modules/items/7387372">Lecture Slides</a> 
+    </td><td class="col7">
+      
+    </td><td class="col8">
+      
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      29-Mar
+    </td><td class="col2">
+      Tuesday
+    </td><td class="col3">
+      Supervised Learning
+Supervised learning overview
+Train/Val/Test, cross-validation, overfitting 
+    </td><td class="col4">
+      PRML: 1.1, 1.3
+AI 18.1 - 18.3
+    </td><td class="col5">
+      
+    </td><td class="col6">
+      1.<a href="https://osu.instructure.com/courses/114952/modules/items/7387373">Lecture Slides</a> 
+    </td><td class="col7">
+      
+    </td><td class="col8">
+      
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      31-Mar
+    </td><td class="col2">
+      Thursday
+    </td><td class="col3">
+      KNN, Decision Trees, Random Forest, Boosting/Bagging
+    </td><td class="col4">
+      PRML: 2.5.2 
+PRML: 4.1.1-4.1.3, 4.3.2 
+PRML: 7.1.1-7.1.2 
+PRML: 14.3, 14.4 
+AI 18.4 - 18.9
+    </td><td class="col5">
+      
+    </td><td class="col6">
+      1.<a href="https://osu.instructure.com/courses/114952/modules/items/7387374">Lecture Slides</a> 
+    </td><td class="col7">
+      HW3 due <br /> HW4 released
+    </td><td class="col8">
+      
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      5-Apr
+    </td><td class="col2">
+      Tuesday
+    </td><td class="col3">
+      Logistic regression, SVM-lite, Bayesian Classifier
+    </td><td class="col4">
+      PRML: 2.5.2 
+PRML: 4.1.1-4.1.3, 4.3.2 
+PRML: 7.1.1-7.1.2 
+PRML: 14.3, 14.4 
+AI 18.4 - 18.9
+    </td><td class="col5">
+      
+    </td><td class="col6">
+      1.<a href="https://osu.instructure.com/courses/114952/modules/items/7387375">Lecture Slides</a> 
+    </td><td class="col7">
+      
+    </td><td class="col8">
+      
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      7-Apr
+    </td><td class="col2">
+      Thursday
+    </td><td class="col3">
+      Neural networks
+Deep learning introduction with CNN, RNN, GNN basics
+perceptron
+    </td><td class="col4">
+      PRML: 4.1.7
+    </td><td class="col5">
+      
+    </td><td class="col6">
+      1.<a href="https://osu.instructure.com/courses/114952/modules/items/7387376">Lecture Slides</a> 
+    </td><td class="col7">
+      
+    </td><td class="col8">
+      
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      12-Apr
+    </td><td class="col2">
+      Tuesday
+    </td><td class="col3">
+      Multi-layer perceptron, backpropagation, training particulars
+    </td><td class="col4">
+      PRML: 5.1-5.3
+    </td><td class="col5">
+      
+    </td><td class="col6">
+      1.<a href="https://osu.instructure.com/courses/114952/modules/items/7387377">Lecture Slides</a> 
+    </td><td class="col7">
+      
+    </td><td class="col8">
+      
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      14-Apr
+    </td><td class="col2">
+      Thursday
+    </td><td class="col3">
+      Reinforcement Learning Basics and Examples
+    </td><td class="col4">
+      Slides only
+    </td><td class="col5">
+      
+    </td><td class="col6">
+      1.<a href="https://osu.instructure.com/courses/114952/modules/items/7387378">Lecture Slides</a> 
+    </td><td class="col7">
+      HW4 due
+    </td><td class="col8">
+      
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      19-Apr
+    </td><td class="col2">
+      Tuesday
+    </td><td class="col3">
+      Ethics and Philosophy of AI
+    </td><td class="col4">
+      Slides only
+    </td><td class="col5">
+      
+    </td><td class="col6">
+      1.<a href="https://osu.instructure.com/courses/114952/modules/items/7387378">Lecture Slides</a> 
+    </td><td class="col7">
+      
+    </td><td class="col8">
+      
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      21-Apr
+    </td><td class="col2">
+      Thursday
+    </td><td class="col3">
+      Final exam review
+    </td><td class="col4">
+      
+    </td><td class="col5">
+      
+    </td><td class="col6">
+      
+    </td><td class="col7">
+      
+    </td><td class="col8">
+      
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      TBD
+    </td><td class="col2">
+      
+    </td><td class="col3">
+      Final exam
+    </td><td class="col4">
+      
+    </td><td class="col5">
+      
+    </td><td class="col6">
+      
+    </td><td class="col7">
+      
+    </td><td class="col8">
+      
+    </td></tr>
+
+  
+</table>
+
+<h3 id="miscellaneous">Miscellaneous</h3>
+
+<h3 id="lectures">Lectures</h3>
+<ol>
+  <li>Due to Omicron, lectures will start off via zoom at the start of the semester. They will be recorded and posted online after each class. You are encouraged to join the zoom session live.</li>
+  <li>Zoom session details are posted in Carmen.</li>
+</ol>
+
+<h3 id="grading-tentative-">Grading (tentative: )</h3>
+<ul>
+  <li>Homework (40%)</li>
+  <li>Participation &amp; quizzes: 10%</li>
+  <li>Midterm exams: 25%</li>
+  <li>Final exam: 25%</li>
+</ul>
+
+<h4 id="important">Important:</h4>
+<ul>
+  <li>Don’t forget to do your participation quizzes under the assignments tab!</li>
+</ul>
+
+<h3 id="announcements--communications">Announcements &amp; Communications:</h3>
+<ul>
+  <li>I will make announcements via carmen. If I need to reach out to an individual students, I will email them at name.#@osu.edu.</li>
+  <li>Please feel free to post questions &amp; discussions in Carmen. The TA and I will monitor them.</li>
+  <li>If you email me a question whose answer will benefit the whole class, I might send out an anonymized version of your question &amp; answer to the class to help everyone.</li>
+</ul>
+
+
+      </section>
+    </div>
+  </body>
+</html>
