@@ -20,8 +20,8 @@ Schedule                 | Tues/Thur 2:20 PM - 3:40 PM
  Location                | Baker Systems 180 (or ONLINE)      
  Professor               | Greg Ryslik / ryslik DOT 1 AT osu DOT edu
  Professor Office Hours  | Thursdays (3:40 - 4:40 PM) - via zoom. Contact me if you plan to attend.
- TA                      | TBD
- TA Office Hours         | TBD                         
+ TA                      | Shuning Jiang (jiang.2126)
+ TA Office Hours         | Wedensday & Friday 1:30 PM - 2:00 PM. Zoom: please check the syllabus on Carmen Canvas.
 
 
 
