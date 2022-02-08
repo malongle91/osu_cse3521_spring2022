@@ -21,13 +21,13 @@ AI: 8.1-8.3
 AI: 9.1-9.3, 9.5","<a href = ""https://osu.zoom.us/rec/share/oHknTvjhWhg1cEC9PBB-SHfkGGUjemIWINJsPDJsmrhjtCkNtflem3lWz8Xxyk4n.aPDV9wapvycVF6IK""> 02-01-22 </a>","1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387360"">Lecture Slides</a> ",,
 3-Feb,Thursday,"Data-to-Features and Dimensionality Reduction
 Machine learning overview, application data, bag of words","PRML: 1.2.1, 1.2.2, 1.2.4 
-PRML: 2.5",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387361"">Lecture Slides</a> ",,
+PRML: 2.5","<a href = ""https://osu.zoom.us/rec/share/AaMG3TWktGHarOEeEXacFN5TrSlFiyXHZtJigr6udccMRUnVOcuI_GSSlaGILrmF.qpYjhqz9JUI_LBp5""> 02-03-22 </a>","1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387361"">Lecture Slides</a> ",,
 8-Feb,Tuesday,"Histograms, non-parametric representations (Parzen)
 data correlation","PRML: 1.2.1, 1.2.2, 1.2.4 
-PRML: 2.5",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387362"">Lecture Slides</a> ",HW1 due <br> HW2 released,"1.<a href = ""/osu_cse3521_spring2022/course_materials/lecture_examples/BoW_Norms_Kernels.ipynb"">BoW_Norms_Kernels</a>"
+PRML: 2.5","<a href = ""https://osu.zoom.us/rec/share/8npJbuCWcDtXGnBPiU8l8rYHEt11vFwy0XdvCp3LG7VCWCII-EMIzS8gW7gJKvMW.1y6wH7gOAItLbroS""> 02-08-22 </a>","1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387362"">Lecture Slides</a> ","HW1 due <br> <a href = ""/osu_cse3521_spring2022/course_materials/HW/OSU_CSE_3521_2022_GRyslik-HW2.pdf"">HW 2</a>","1.<a href = ""/osu_cse3521_spring2022/course_materials/lecture_examples/BoW_Norms_Kernels.ipynb"">BoW_Norms_Kernels</a>"
 10-Feb,Thursday,"Z-score, whitening
 Dimensionality reduction: PCA & embedding (T-SNE)","PRML: 1.4
-PRML: 12.1, 12.4.3",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387363"">Lecture Slides</a> ",,
+PRML: 12.1, 12.4.3",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387363"">Lecture Slides</a> ",,"1.<a href = ""/osu_cse3521_spring2022/course_materials/papers/Shlens-PCA.pdf"">PCA intro</a>"
 15-Feb,Tuesday,Dimensionality reduction (continued),"PRML: 1.4
 PRML: 12.1, 12.4.3",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387364"">Lecture Slides</a> ",,
 17-Feb,Thursday,"General Parameter Estimation Techniques
