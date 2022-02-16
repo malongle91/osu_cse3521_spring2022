@@ -29,10 +29,10 @@ PRML: 2.5","<a href = ""https://osu.zoom.us/rec/share/8npJbuCWcDtXGnBPiU8l8rYHEt
 Dimensionality reduction: PCA & embedding (T-SNE)","PRML: 1.4
 PRML: 12.1, 12.4.3","<a href = ""https://osu.zoom.us/rec/share/qznm-OfxD-bfpdr8ykoAiCOq4xYOgyKiy-N3gXgunFqCtGg6nYvoAPgb0O4u_ZyQ.ox1873MK78gQYqIo""> 02-10-22 </a>","1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387363"">Lecture Slides</a> <br>2.<a href = ""https://osu.instructure.com/files/40436454/"">PCA Prelim</a>",,"1.<a href = ""/osu_cse3521_spring2022/course_materials/papers/Shlens-PCA.pdf"">PCA intro</a> <br> 2.<a href = ""/osu_cse3521_spring2022/course_materials/lecture_examples/Standardization_Normalization_Whitening_PCA.ipynb"">PCA/Whitening/ Norm Notebook</a>"
 15-Feb,Tuesday,Dimensionality reduction (continued),"PRML: 1.4
-PRML: 12.1, 12.4.3",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387364"">Lecture Slides</a> ",,
+PRML: 12.1, 12.4.3","<a href = ""https://osu.zoom.us/rec/share/nDXU8TMVNSJDq6x2Ugznv86SwGSzQckdcfaRVYsDwLWJMkle8EiMCjLKtK2nS1JZ.MCaYyI4Qr8-4JB2c""> 02-15-22 </a>","1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387364"">Lecture Slides</a> ",,
 17-Feb,Thursday,"General Parameter Estimation Techniques
 Linear Regression w/ least squares ","PRML: 1.1, 1.2.5, 1.5.5 
-PRML: 3.1",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387365"">Lecture Slides</a> ",,
+PRML: 3.1",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387365"">Lecture Slides</a><br>2. <a href = ""https://osu.instructure.com/files/40642057"">Lecture Primary </a>",,"1.<a href = ""/osu_cse3521_spring2022/course_materials/lecture_examples/LinearRegression.ipynb"">Linear Regression Notebook</a>"
 22-Feb,Tuesday,Gradient Descent and Newton's method,"PRML: 1.1, 1.2.5, 1.5.5 
 PRML: 3.1",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387366"">Lecture Slides</a> ",,
 24-Feb,Thursday,"Probability Basics
