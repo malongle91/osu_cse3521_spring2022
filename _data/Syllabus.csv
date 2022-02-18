@@ -31,15 +31,16 @@ PRML: 12.1, 12.4.3","<a href = ""https://osu.zoom.us/rec/share/qznm-OfxD-bfpdr8y
 15-Feb,Tuesday,Dimensionality reduction (continued),"PRML: 1.4
 PRML: 12.1, 12.4.3","<a href = ""https://osu.zoom.us/rec/share/nDXU8TMVNSJDq6x2Ugznv86SwGSzQckdcfaRVYsDwLWJMkle8EiMCjLKtK2nS1JZ.MCaYyI4Qr8-4JB2c""> 02-15-22 </a>","1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387364"">Lecture Slides</a> ",,
 17-Feb,Thursday,"General Parameter Estimation Techniques
-Linear Regression w/ least squares ","PRML: 1.1, 1.2.5, 1.5.5 
-PRML: 3.1",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387365"">Lecture Slides</a><br>2. <a href = ""https://osu.instructure.com/files/40642057"">Lecture Primary </a>",,"1.<a href = ""/osu_cse3521_spring2022/course_materials/lecture_examples/LinearRegression.ipynb"">Linear Regression Notebook</a>"
-22-Feb,Tuesday,Gradient Descent and Newton's method,"PRML: 1.1, 1.2.5, 1.5.5 
+Linear Regression w/ least squares (Part 1)","PRML: 1.1, 1.2.5, 1.5.5 
+PRML: 3.1","<a href = ""https://osu.zoom.us/rec/share/oASV0ERe3VVLvsEpTS-QEBTYWB1tZAWoabG7xNB32TAIdQpR02p2IrdCJa513tXE.DcATW2638yy_TKPB""> 02-17-22 </a>","1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387365"">Lecture Slides</a><br>2. <a href = ""https://osu.instructure.com/files/40642057"">Lecture Primary </a>",,"1.<a href = ""/osu_cse3521_spring2022/course_materials/lecture_examples/LinearRegression.ipynb"">Linear Regression Notebook</a>"
+22-Feb,Tuesday,"General Parameter Estimation Techniques
+Linear Regression w/ least squares (Part 2)",,,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387365"">Lecture Slides</a><br>2. <a href = ""https://osu.instructure.com/files/40642057"">Lecture Primary </a>",,"1.<a href = ""/osu_cse3521_spring2022/course_materials/lecture_examples/LinearRegression.ipynb"">Linear Regression Notebook</a>"
+24-Feb,Thursday,Gradient Descent and Newton's method,"PRML: 1.1, 1.2.5, 1.5.5 
 PRML: 3.1",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387366"">Lecture Slides</a> ",,
-24-Feb,Thursday,"Probability Basics
+1-Mar,Tuesday,"Probability Basics
 Probability refresher","PRML: 3.1.3, 5.2.4 
 Review: probability",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387367"">Lecture Slides</a> ",,
-1-Mar,Tuesday,Midterm review,,,,HW2 due,
-3-Mar,Thursday,Midterm,,,,,
+3-Mar,Thursday,Midterm Review. Exam on weekend starting March 4th.,,,,HW2 due,
 8-Mar,Tuesday,"Midterm solution discussion
 Distribution modeling (parameter estimation, MAP, ML)
 Bayes rule","PRML: 1.2.3, 1.2.4, 2.3 
