@@ -39,20 +39,21 @@ Linear Regression w/ least squares (Part 2)",,"<a href = ""https://osu.zoom.us/r
 PRML: 3.1","<a href = ""https://osu.zoom.us/rec/share/FKDj0Lircb4GxV0MZG_P6adblIZInpwic5AVExal6YIGJyER4iJYL-7RK349ckFF.i64YFw47wnLJt1vu""> 02-23-22 </a>","1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387366"">Lecture Slides</a> ",,"1.<a href = ""/osu_cse3521_spring2022/course_materials/lecture_examples/GaussNewton&GradientDescent.ipynb"">Gauss Newtown & Gradient Descent</a>"
 1-Mar,Tuesday,"Distribution modeling (parameter estimation, MAP, ML)
 Bayes rule","PRML: 3.1.3, 5.2.4 
-Review: probability",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387368"">Lecture Slides</a><br>2.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387367"">Probability Review</a> ",,
-3-Mar,Thursday,Midterm Review. Exam on weekend starting March 4th.,,,,HW2 due,
+Review: probability","<a href = ""https://osu.zoom.us/rec/share/Pu-6EY4_ES3zn0x2nq3LmPcxyr4QV0cbjmu1lRQmBrVc0nGZK5N0m-aZuIMbfL-d.DFfj-cBsfGg4D27S""> 03-01-22 </a>","1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387368"">Lecture Slides</a><br>2.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387367"">Probability Review</a> ",,
+3-Mar,Thursday,Midterm Review. Exam on weekend starting March 4th.,,"<a href = ""https://osu.zoom.us/rec/share/I6vTRYca1WjSeYPLC5cD6oQJ72Y8C54zneice7d09fcpnpWxgV6KrlgtFDW7mF7Z.NCZQYqUthVuVyKKw""> 03-03-22 </a>",,HW2 due,
+4-Mar,Friday,Midterm,"1.<a href = ""https://osu.instructure.com/courses/114952/assignments/2590452"">Details</a> ",,,,
 8-Mar,Tuesday,"naïve Bayes
 Graphical Model intro (Bayes Nets) (Part 1)","PRML: 1.2.3, 1.2.4, 2.3 
 PRML: 8.1.1-8.1.3 
 PRML: 8.2 
 PRML: 8.4.1 
-AI: 13.1-13.5",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387369"">Lecture Slides</a> <br> 2.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387370"">Lecture Slides</a> ",,
+AI: 13.1-13.5","<a href = ""https://osu.zoom.us/rec/share/133NaOSGQr0Z-Wr3by41aaZr6TPxQbuM5hTWtGHziXVWOZptEqINwWolbcmGpwbD.EoOxvk82dS28CmKY""> 03-08-22 </a>","1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387369"">Lecture Slides</a> <br> 2.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387370"">Lecture Slides</a> ",,"1.<a href = ""/osu_cse3521_spring2022/course_materials/lecture_examples/NaiveBayes_BBN.ipynb"">Naïve Bayes & Bayesian Belief Networks</a>"
 10-Mar,Thursday,"naïve Bayes
 Graphical Model intro (Bayes Nets) (Part 2)","PRML: 1.2.3, 1.2.4, 2.3 
 PRML: 8.1.1-8.1.3 
 PRML: 8.2 
 PRML: 8.4.1 
-AI: 13.1-13.5",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387369"">Lecture Slides</a> <br> 2.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387370"">Lecture Slides</a> ",HW3 released,
+AI: 13.1-13.5","<a href = ""https://osu.zoom.us/rec/share/p-FrPbNeLtFRS-ADFUwsW4adT_gdKx5lnuk2RBPHnbYiVJDesJ2yaeSQfMPs_f28.xg_W3Af9YIliprAA""> 03-11-22 </a>","1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387369"">Lecture Slides</a> <br> 2.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387370"">Lecture Slides</a> ","<a href = ""https://osu.instructure.com/courses/114952/assignments/2590450"">HW 3</a> ","1.<a href = ""/osu_cse3521_spring2022/course_materials/lecture_examples/NaiveBayes_BBN.ipynb"">Naïve Bayes & Bayesian Belief Networks</a>"
 15-Mar,Tuesday,Spring Break,,,,,
 17-Mar,Thursday,Spring Break,,,,,
 22-Mar,Tuesday,"Unsupervised Learning
