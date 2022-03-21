@@ -58,7 +58,7 @@ AI: 13.1-13.5","<a href = ""https://osu.zoom.us/rec/share/p-FrPbNeLtFRS-ADFUwsW4
 17-Mar,Thursday,Spring Break,,,,,
 22-Mar,Tuesday,"Unsupervised Learning
 Unsupervised learning overview
-K-means/medoids, agglomerative ",PRML: 9.1,,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387371"">Lecture Slides</a> ",,"1.<a href = ""/osu_cse3521_spring2022/course_materials/lecture_examples/kNN_HierarchicalModeling.ipynb"">kNN and Hierarchical Clustering</a>"
+K-means/medoids, agglomerative ",PRML: 9.1,,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387371"">Lecture Slides</a> ",,"1.<a href = ""/osu_cse3521_spring2022/course_materials/lecture_examples/KMeans_HierarchicalModeling.ipynb"">kMeans and Hierarchical Clustering</a>"
 24-Mar,Thursday,Mixture-of-Gaussians with EM,"PRML: 9.2, 9.3.2, 9.4",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387372"">Lecture Slides</a> ",,"1.<a href = ""/osu_cse3521_spring2022/course_materials/lecture_examples/EM_Algorithm.ipynb"">EM Algorithm</a>"
 29-Mar,Tuesday,"Supervised Learning
 Supervised learning overview
