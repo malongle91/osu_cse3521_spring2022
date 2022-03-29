@@ -58,17 +58,17 @@ AI: 13.1-13.5","<a href = ""https://osu.zoom.us/rec/share/p-FrPbNeLtFRS-ADFUwsW4
 17-Mar,Thursday,Spring Break,,,,,
 22-Mar,Tuesday,"Unsupervised Learning
 Unsupervised learning overview
-K-means/medoids, agglomerative ",PRML: 9.1,,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387371"">Lecture Slides</a> ",,"1.<a href = ""/osu_cse3521_spring2022/course_materials/lecture_examples/KMeans_HierarchicalModeling.ipynb"">kMeans and Hierarchical Clustering</a>"
-24-Mar,Thursday,Mixture-of-Gaussians with EM,"PRML: 9.2, 9.3.2, 9.4",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387372"">Lecture Slides</a> ",,"1.<a href = ""/osu_cse3521_spring2022/course_materials/lecture_examples/EM_Algorithm.ipynb"">EM Algorithm</a>"
+K-means/medoids, agglomerative ",PRML: 9.1,"<a href = ""https://osu.zoom.us/rec/share/FgbkZ-XmWLH1fot_32GqbZM47x_rety4OaD-3EnhJ8WIJPawdgSjRogDkUJF_0Tm.-GMh2V9ZyJ5R5F0q""> 03-22-22 </a>","1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387371"">Lecture Slides</a> ",,"1.<a href = ""/osu_cse3521_spring2022/course_materials/lecture_examples/KMeans_HierarchicalModeling.ipynb"">kMeans and Hierarchical Clustering</a>"
+24-Mar,Thursday,Mixture-of-Gaussians with EM,"PRML: 9.2, 9.3.2, 9.4","<a href = ""https://osu.zoom.us/rec/share/GjPSZYQ1JvZZGYA7-p1avCeNFrUvbqsC67CSLDKzi0ajgTn6ehahnzqHUXLSPxvb.0IBPc81g5FYUQw2h""> 03-24-22 </a>","1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387372"">Lecture Slides</a> ",,"1.<a href = ""/osu_cse3521_spring2022/course_materials/lecture_examples/EM_Algorithm.ipynb"">EM Algorithm</a>"
 29-Mar,Tuesday,"Supervised Learning
 Supervised learning overview
 Train/Val/Test, cross-validation, overfitting ","PRML: 1.1, 1.3
-AI 18.1 - 18.3",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387373"">Lecture Slides</a> ",,
+AI 18.1 - 18.3",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387373"">Lecture Slides</a> ",,"1.<a href = ""/osu_cse3521_spring2022/course_materials/lecture_examples/CrossValAndRegularization.ipynb"">Cross Validation and Regularization</a>"
 31-Mar,Thursday,"KNN, Decision Trees, Random Forest, Boosting/Bagging","PRML: 2.5.2 
 PRML: 4.1.1-4.1.3, 4.3.2 
 PRML: 7.1.1-7.1.2 
 PRML: 14.3, 14.4 
-AI 18.4 - 18.9",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387374"">Lecture Slides</a> ",HW3 due <br> HW4 released,
+AI 18.4 - 18.9",,"1.<a href = ""https://osu.instructure.com/courses/114952/modules/items/7387374"">Lecture Slides</a> ",HW3 due <br> HW4 released,"1.<a href = ""/osu_cse3521_spring2022/course_materials/lecture_examples/kNN_RandomForests.ipynb"">kNN and Random Forests</a>"
 5-Apr,Tuesday,"Logistic regression, SVM-lite, Bayesian Classifier","PRML: 2.5.2 
 PRML: 4.1.1-4.1.3, 4.3.2 
 PRML: 7.1.1-7.1.2 
